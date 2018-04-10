@@ -1,86 +1,42 @@
 //
 //  QuestionBank.swift
-//  Quizzler
+//  Quizza
 //
-//  Created by Zaid on 2018-03-02.
-//  Copyright © 2018 London App Brewery. All rights reserved.
+//  Created by Zaid on 2018-04-10.
+//  Copyright © 2018 EnigmaticZee. All rights reserved.
 //
 
 import Foundation
 
 class QuestionBank {
-    var list = [Question]()
+    var list = [Question]();
     
     init() {
-       //  Creating a quiz item and appending it to the list
-                let item = Question(text: "Valentine\'s day is banned in Saudi Arabia.", correctAnswer: true)
+        list.append(Question(text: "Lightning never strikes in the same place twice.", correctAnswer: false))
         
-                // Add the Question to the list of questions
-                list.append(item)
+        // skipping one step and just creating the quiz item inside the append function
+        list.append(Question(text: "If you cry in space the tears just stick to your face.", correctAnswer: true))
         
-                // skipping one step and just creating the quiz item inside the append function
-                list.append(Question(text: "A slug\'s blood is green.", correctAnswer: true))
+        list.append(Question(text: "Humans can distinguish between over a trillion different smells.", correctAnswer: true))
         
-                list.append(Question(text: "Approximately one quarter of human bones are in the feet.", correctAnswer: true))
+        list.append(Question(text: "Adults have fewer bones than babies do.", correctAnswer: true))
         
-                list.append(Question(text: "The total surface area of two human lungs is approximately 70 square metres.", correctAnswer: true))
+        list.append(Question(text: "Your fingernails and hair keep growing after you die.", correctAnswer: false))
         
-                list.append(Question(text: "In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.", correctAnswer: true))
+        list.append(Question(text: "In London, UK, if you happen to die in the House of Parliament, you are technically entitled to a state funeral, because the building is considered too sacred a place.", correctAnswer: false))
         
-                list.append(Question(text: "In London, UK, if you happen to die in the House of Parliament, you are technically entitled to a state funeral, because the building is considered too sacred a place.", correctAnswer: false))
+        list.append(Question(text: "Birds are dinosaurs.", correctAnswer: true))
         
-                list.append(Question(text: "It is illegal to pee in the Ocean in Portugal.", correctAnswer: true))
+        list.append(Question(text: "Water spirals down the plughole in opposite directions in the northern and southern hemispheres.", correctAnswer: false))
         
-                list.append(Question(text: "You can lead a cow down stairs but not up stairs.", correctAnswer: false))
+        list.append(Question(text: "It costs the U.S. Mint more to make pennies and nickels than the coins are actually worth.", correctAnswer: true))
         
-                list.append(Question(text: "Google was originally called \"Backrub\".", correctAnswer: true))
+        list.append(Question(text: "Buzz Aldrin\'s mother\'s maiden name was \"Moon\".", correctAnswer: true))
         
-                list.append(Question(text: "Buzz Aldrin\'s mother\'s maiden name was \"Moon\".", correctAnswer: true))
+        list.append(Question(text: "Goldfish only have a memory of three seconds.", correctAnswer: false))
         
-                list.append(Question(text: "The loudest sound produced by any animal is 188 decibels. That animal is the African Elephant.", correctAnswer: false))
+        list.append(Question(text: "The owner of the company that makes Segways died after accidentally driving his Segway off a cliff.", correctAnswer: true))
         
-                list.append(Question(text: "No piece of square dry paper can be folded in half more than 7 times.", correctAnswer: false))
-        
-                list.append(Question(text: "Chocolate affects a dog\'s heart and nervous system; a few ounces are enough to kill a small dog.", correctAnswer: true))
-            }
+        list.append(Question(text: "Humans can’t breathe and swallow at the same time.", correctAnswer: true))
     }
-    
-    
-    
-    
-    
-//    var list = [Question]()
-//
-//    init() {
-//        // Creating a quiz item and appending it to the list
-//        let item = Question(text: "Valentine\'s day is banned in Saudi Arabia.", correctAnswer: true)
-//
-//        // Add the Question to the list of questions
-//        list.append(item)
-//
-//        // skipping one step and just creating the quiz item inside the append function
-//        list.append(Question(text: "A slug\'s blood is green.", correctAnswer: true))
-//
-//        list.append(Question(text: "Approximately one quarter of human bones are in the feet.", correctAnswer: true))
-//
-//        list.append(Question(text: "The total surface area of two human lungs is approximately 70 square metres.", correctAnswer: true))
-//
-//        list.append(Question(text: "In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.", correctAnswer: true))
-//
-//        list.append(Question(text: "In London, UK, if you happen to die in the House of Parliament, you are technically entitled to a state funeral, because the building is considered too sacred a place.", correctAnswer: false))
-//
-//        list.append(Question(text: "It is illegal to pee in the Ocean in Portugal.", correctAnswer: true))
-//
-//        list.append(Question(text: "You can lead a cow down stairs but not up stairs.", correctAnswer: false))
-//
-//        list.append(Question(text: "Google was originally called \"Backrub\".", correctAnswer: true))
-//
-//        list.append(Question(text: "Buzz Aldrin\'s mother\'s maiden name was \"Moon\".", correctAnswer: true))
-//
-//        list.append(Question(text: "The loudest sound produced by any animal is 188 decibels. That animal is the African Elephant.", correctAnswer: false))
-//
-//        list.append(Question(text: "No piece of square dry paper can be folded in half more than 7 times.", correctAnswer: false))
-//
-//        list.append(Question(text: "Chocolate affects a dog\'s heart and nervous system; a few ounces are enough to kill a small dog.", correctAnswer: true))
-//    }
-
+}

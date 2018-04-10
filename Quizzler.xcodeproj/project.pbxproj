@@ -12,10 +12,10 @@
 		633646C61B8C657400FF45E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633646C51B8C657400FF45E2 /* Images.xcassets */; };
 		633646C91B8C657400FF45E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 633646C71B8C657400FF45E2 /* LaunchScreen.xib */; };
 		ADEB04ED1FBDFEAA00026359 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633646C21B8C657400FF45E2 /* Main.storyboard */; };
-		B89089AD204848CC00234F5C /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89089AC204848CC00234F5C /* Question.swift */; };
-		B89089AF20490DA100234F5C /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89089AE20490DA100234F5C /* QuestionBank.swift */; };
-		B8B96AA4207D376F0007840D /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B8B96AA1207D376E0007840D /* ProgressHUD.bundle */; };
-		B8B96AA5207D376F0007840D /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B96AA2207D376E0007840D /* ProgressHUD.m */; };
+		B8376F31207BA6B00082ABE7 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8376F30207BA6B00082ABE7 /* Question.swift */; };
+		B8376F33207BC87A0082ABE7 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8376F32207BC87A0082ABE7 /* QuestionBank.swift */; };
+		B8B96AAA207D39B20007840D /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B8B96AA8207D39B20007840D /* ProgressHUD.bundle */; };
+		B8B96AAB207D39B20007840D /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B96AA9207D39B20007840D /* ProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,12 +26,12 @@
 		633646C31B8C657400FF45E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		633646C51B8C657400FF45E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		633646C81B8C657400FF45E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B89089AC204848CC00234F5C /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
-		B89089AE20490DA100234F5C /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
-		B8B96AA0207D376E0007840D /* Quizzler-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quizzler-Bridging-Header.h"; sourceTree = "<group>"; };
-		B8B96AA1207D376E0007840D /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
-		B8B96AA2207D376E0007840D /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
-		B8B96AA3207D376F0007840D /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		B8376F30207BA6B00082ABE7 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		B8376F32207BC87A0082ABE7 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		B8B96AA6207D39B10007840D /* Quizzler-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quizzler-Bridging-Header.h"; sourceTree = "<group>"; };
+		B8B96AA7207D39B20007840D /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		B8B96AA8207D39B20007840D /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		B8B96AA9207D39B20007840D /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,12 +75,12 @@
 		633646BC1B8C657400FF45E2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B8B96AA1207D376E0007840D /* ProgressHUD.bundle */,
-				B8B96AA3207D376F0007840D /* ProgressHUD.h */,
-				B8B96AA2207D376E0007840D /* ProgressHUD.m */,
+				B8B96AA8207D39B20007840D /* ProgressHUD.bundle */,
+				B8B96AA7207D39B20007840D /* ProgressHUD.h */,
+				B8B96AA9207D39B20007840D /* ProgressHUD.m */,
 				633646C71B8C657400FF45E2 /* LaunchScreen.xib */,
 				633646BD1B8C657400FF45E2 /* Info.plist */,
-				B8B96AA0207D376E0007840D /* Quizzler-Bridging-Header.h */,
+				B8B96AA6207D39B10007840D /* Quizzler-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -97,8 +97,8 @@
 		EBB1C72C1B946C530011F5C3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B89089AC204848CC00234F5C /* Question.swift */,
-				B89089AE20490DA100234F5C /* QuestionBank.swift */,
+				B8376F30207BA6B00082ABE7 /* Question.swift */,
+				B8376F32207BC87A0082ABE7 /* QuestionBank.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8B96AA4207D376F0007840D /* ProgressHUD.bundle in Resources */,
+				B8B96AAA207D39B20007840D /* ProgressHUD.bundle in Resources */,
 				ADEB04ED1FBDFEAA00026359 /* Main.storyboard in Resources */,
 				633646C91B8C657400FF45E2 /* LaunchScreen.xib in Resources */,
 				633646C61B8C657400FF45E2 /* Images.xcassets in Resources */,
@@ -185,9 +185,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B89089AD204848CC00234F5C /* Question.swift in Sources */,
-				B89089AF20490DA100234F5C /* QuestionBank.swift in Sources */,
-				B8B96AA5207D376F0007840D /* ProgressHUD.m in Sources */,
+				B8376F31207BA6B00082ABE7 /* Question.swift in Sources */,
+				B8376F33207BC87A0082ABE7 /* QuestionBank.swift in Sources */,
+				B8B96AAB207D39B20007840D /* ProgressHUD.m in Sources */,
 				633646C11B8C657400FF45E2 /* ViewController.swift in Sources */,
 				633646BF1B8C657400FF45E2 /* AppDelegate.swift in Sources */,
 			);
@@ -322,7 +322,7 @@
 				INFOPLIST_FILE = Quizzler/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zaid.Quizzler;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zee.Quizza;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Quizzler/Quizzler-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -339,7 +339,7 @@
 				INFOPLIST_FILE = Quizzler/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zaid.Quizzler;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zee.Quizza;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Quizzler/Quizzler-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
