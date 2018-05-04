@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet var progressBar: UIView!
+    
     @IBOutlet weak var progressLabel: UILabel!
     
     override func viewDidLoad() {
